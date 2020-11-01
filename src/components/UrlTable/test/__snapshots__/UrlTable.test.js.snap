@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrlTable  should match with snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <table
+    aria-label="customized table"
+    className="MuiTable-root"
+  >
+    <thead
+      className="MuiTableHead-root"
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head styled_cell"
+          scope="col"
+        >
+          Page URL
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head styled_cell"
+          scope="col"
+        >
+          ID
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head styled_cell"
+          scope="col"
+        >
+          Create Date
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head styled_cell"
+          scope="col"
+        >
+          Operations
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+    >
+      <tr
+        className="MuiTableRow-root styled_row"
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body url_cell"
+          scope="row"
+          title="test"
+        >
+          test
+        </th>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          123123
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          11/1/2020, 12:00:00 AM
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <div
+            className="tableOperationContainer"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained operationItem MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <span
+                  className="MuiButton-startIcon MuiButton-iconSizeSmall"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10 20h4V4h-4v16zm-6 0h4v-8H4v8zM16 9v11h4V9h-4z"
+                    />
+                  </svg>
+                </span>
+                Stats
+              </span>
+            </button>
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained operationItem MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <span
+                  className="MuiButton-startIcon MuiButton-iconSizeSmall"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
+                    />
+                  </svg>
+                </span>
+                Script
+              </span>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

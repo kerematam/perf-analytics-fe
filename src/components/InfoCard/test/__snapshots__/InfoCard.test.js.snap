@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Infocard component should match with snapshow 1`] = `
+<div>
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+  >
+    The performanceTiming API, a JavaScript API for measuring the loading performance of the requested page, is deprecated but supported in all browsers. It has been replaced with the performanceNavigationTiming API.
+  </p>
+  <br />
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+  >
+    The performance timing API provided read only times, in milliseconds(ms), describing at what time each point in the page loading process was reached. As displayed in the image below, the navigation process goes from navigationStart, unloadEventStart, unloadEventEnd, redirectStart, redirectEnd, fetchStart, domainLookupStart, domainLookupEnd, connectStart , connectEnd, secureConnectionStart, requestStart, responseStart, responseEnd, domLoading, domInteractive, domContentLoadedEventStart, domContentLoadedEventEnd, domComplete, loadEventStart, and loadEventEnd.
+  </p>
+  <a
+    className="read_more"
+    href="https://developer.mozilla.org/en-US/docs/Web/Performance/Navigation_and_resource_timings#Performance_Timings"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    read more
+  </a>
+</div>
+`;
