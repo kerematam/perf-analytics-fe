@@ -2,11 +2,11 @@ export const script = (
   pageUrl,
   pageId,
   requestUrl = 'http://localhost:4040'
-) => `/**
-* Page URL : ${pageUrl}
-* Page ID : ${pageId}
-* Analystics Host : ${requestUrl}
-*/
+) => `<!--
+* Page URL : http://localhost:3000/test.html
+* Page ID : 5f9e8bb5b238f965bb3de141
+* Analystics Host : http://localhost:4040
+-->
 <script async>
 function calcualteTimer() {
   var timer = {};

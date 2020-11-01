@@ -11,6 +11,11 @@
   <img
     src="https://images.pexels.com/photos/1236701/pexels-photo-1236701.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     alt="Girl in a jacket" width="500" height="600" />
+  <!-- /**
+    * Page URL : http://localhost:3000/test.html
+    * Page ID : 5f9e8bb5b238f965bb3de141
+    * Analystics Host : http://localhost:4040
+    */ -->
   <script async>
     function calcualteTimer() {
       var timer = {};
@@ -20,22 +25,19 @@
       timer.doml = timing.domComplete - timing.domLoading;
       timer.wl = timing.loadEventEnd - timing.navigationStart;
       timer.resources = performance.getEntriesByType("resource");
-
       return timer;
     }
 
     function sendTimer() {
       var timer = calcualteTimer()
       var body = JSON.stringify(timer);
-      fetch(
-        "http://localhost:4040/api/sites/5f9d8a6b243ca2112946f1bd/metrics",
-        {
-          body,
-          headers: {
-            "Content-Type": "application/json",
-          },
-          method: "POST",
-        }
+      fetch("http://localhost:4040/api/sites/5f9e8bb5b238f965bb3de141/metrics", {
+        body,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+      }
       )
     }
 

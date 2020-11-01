@@ -2,6 +2,44 @@
 
 Projects built with Create-React-App include support for ES6 syntax, as well as several unofficial / not-yet-final forms of Javascript syntax such as Class Properties and JSX. See the list of [language features and polyfills supported by Create-React-App](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#supported-language-features-and-polyfills) for more information.
 
+# Script
+
+```html
+<!--
+* Page URL : http://localhost:3000/test.html
+* Page ID : 5f9e8bb5b238f965bb3de141
+* Analystics Host : http://localhost:4040
+-->
+<script async>
+  function calcualteTimer() {
+    var timer = {}
+    var timing = window.performance.timing
+    timer.ttfb = timing.responseStart - timing.requestStart
+    timer.fcp = performance.getEntriesByType('paint')[1].startTime
+    timer.doml = timing.domComplete - timing.domLoading
+    timer.wl = timing.loadEventEnd - timing.navigationStart
+    timer.resources = performance.getEntriesByType('resource')
+    return timer
+  }
+
+  function sendTimer() {
+    var timer = calcualteTimer()
+    var body = JSON.stringify(timer)
+    fetch('http://localhost:4040/api/sites/5f9e8bb5b238f965bb3de141/metrics', {
+      body,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      method: 'POST',
+    })
+  }
+
+  window.addEventListener('load', function() {
+    setTimeout(sendTimer, 0)
+  })
+</script>
+```
+
 # Screenshots
 
 <img src="docs/1.png" />

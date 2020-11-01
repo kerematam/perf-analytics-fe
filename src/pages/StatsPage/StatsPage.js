@@ -9,6 +9,7 @@ import {
 } from 'pages/StatsPage/StatsPage.redux.js'
 import { useRouteMatch } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
+import { msg } from 'utils/helper'
 import { actions } from './StatsPage.redux'
 
 import styles from './StatsPage.module.scss'
@@ -31,7 +32,11 @@ const StatsPage = () => {
   }, [])
 
   const handleTriggerPageLoad = () => {
-    iframeRef.current.contentWindow.location.reload()
+    try {
+      iframeRef.current.contentWindow.location.reload()
+    } catch (err) {
+      msg.error(err)
+    }
   }
 
   const handleStatsLoad = () => {
