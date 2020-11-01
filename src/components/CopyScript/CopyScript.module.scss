@@ -1,0 +1,45 @@
+@import '../../themes/colors';
+
+.add_url_container {
+  display: flex;
+  padding-bottom: 5px;
+  .input {
+    width: 100%;
+    position: relative;
+    top: 12px;
+  }
+  .button_icon {
+    font-size: 40px;
+  }
+  transition: padding-bottom 0.3s;
+}
+
+.on_error {
+  padding-bottom: 25px;
+}
+
+$copy_icon_padding: 32px;
+.copy_block_container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  .copy_icon {
+    z-index: 1;
+    position: absolute;
+    top: 8px;
+    right: $copy_icon_padding;
+    &:hover {
+      cursor: pointer;
+      color: $PrimaryColorMain;
+    }
+  }
+  .copy_field {
+    width: 100%;
+    textarea {
+      padding-right: calc(10px + #{$copy_icon_padding});
+      height: 300px;
+      width: 100%;
+      font-family: monospace;
+    }
+  }
+}

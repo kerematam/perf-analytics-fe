@@ -1,0 +1,29 @@
+.styled_row {
+  &:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.styled_cell {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  color: transparent;
+}
+
+.tableOperationContainer {
+  $tableItemMargin: 10px;
+  margin: 0 -$tableItemMargin;
+  min-width: 250px;
+  .operationItem {
+    margin: 0 $tableItemMargin;
+  }
+}
+
+.url_cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+  <h1>My First Heading</h1>
+  <p>My first paragraph.</p>
+  <iframe id="frame"
+    src="https://googlesamples.github.io/web-fundamentals/fundamentals/performance/critical-rendering-path/measure_crp_timing.html"></iframe>
+  <img
+    src="https://images.pexels.com/photos/1236701/pexels-photo-1236701.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    alt="Girl in a jacket" width="500" height="600" />
+  <script async>
+    function calcualteTimer() {
+      var timer = {};
+      var timing = window.performance.timing;
+      timer.ttfb = timing.responseStart - timing.requestStart;
+      timer.fcp = performance.getEntriesByType("paint")[1].startTime;
+      timer.doml = timing.domComplete - timing.domLoading;
+      timer.wl = timing.loadEventEnd - timing.navigationStart;
+      timer.resources = performance.getEntriesByType("resource");
+
+      return timer;
+    }
+
+    function sendTimer() {
+      var timer = calcualteTimer()
+      var body = JSON.stringify(timer);
+      fetch(
+        "http://localhost:4040/api/sites/5f9d8a6b243ca2112946f1bd/metrics",
+        {
+          body,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          method: "POST",
+        }
+      )
+    }
+
+    window.addEventListener("load", function () {
+      setTimeout(sendTimer, 0);
+    });
+  </script>
+</body>
+
+</html>
