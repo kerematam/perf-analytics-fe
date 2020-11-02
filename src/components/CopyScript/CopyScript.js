@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import IconButton from '@material-ui/core/IconButton'
 import TextField from '@material-ui/core/TextField'
 import { FileCopy, AddBox as AddBoxIcon } from '@material-ui/icons'
@@ -58,10 +58,14 @@ export const AddUrl = ({ onSubmit = () => {}, url: urlProp = '', loading }) => {
   )
 }
 
-const CopyScript = ({ onSubmit, page = {}, loading }) => {
+const CopyScript = ({ onSubmit, page = {}, reqUrl, loading }) => {
+  const scriptStr = useMemo(() => script(page.url, page._id, reqUrl), [
+    page,
+    reqUrl,
+  ])
+
   const handleCopy = () => {
-    const text = script(page.url, page._id)
-    window.navigator.clipboard.writeText(text)
+    window.navigator.clipboard.writeText(scriptStr)
   }
 
   return (
@@ -73,7 +77,7 @@ const CopyScript = ({ onSubmit, page = {}, loading }) => {
         </IconButton>
         <TextField
           className={styles.copy_field}
-          value={script(page.url, page._id)}
+          value={scriptStr}
           id="outlined-multiline-static"
           label="Copy Block"
           multiline

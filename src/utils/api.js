@@ -1,11 +1,12 @@
 import request from 'utils/request'
+import { ACTIVE_HOST } from './config'
 
 export const getQueryString = params =>
   Object.keys(params)
     .map(key => key + '=' + params[key])
     .join('&')
 
-const baseURL = 'http://localhost:4040'
+const baseURL = ACTIVE_HOST
 const baseRoute = '/api'
 const commonRequest = path => `${baseURL}${baseRoute}${path}`
 

@@ -149,8 +149,8 @@ exports[`Chart component should match with snapshot 1`] = `
           required={false}
           rows={10}
           value="<!--
-* Page URL : http://localhost:3000/test.html
-* Page ID : 5f9e8bb5b238f965bb3de141
+* Page URL : asd
+* Page ID : undefined
 * Analystics Host : http://localhost:4040
 -->
 <script async>

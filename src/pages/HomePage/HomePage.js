@@ -10,6 +10,7 @@ import {
   pagesReduxSelector,
   usePagesReduxInjector,
 } from './HomePage.redux'
+import { ACTIVE_HOST } from 'utils/config'
 
 const HomePage = () => {
   usePagesReduxInjector()
@@ -46,6 +47,7 @@ const HomePage = () => {
           <CopyScript
             onSubmit={handleSubmitUrl}
             page={page}
+            reqUrl={ACTIVE_HOST}
             loading={postPageLoading}
           />
         </Grid>
