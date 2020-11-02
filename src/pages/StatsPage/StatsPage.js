@@ -32,7 +32,7 @@ const StatsPage = () => {
 
   const handleTriggerPageLoad = () => {
     try {
-      iframeRef.current.contentWindow.location.reload()
+      iframeRef.current.src = iframeRef.current.src += ''
     } catch (err) {
       msg.error(err)
     }
