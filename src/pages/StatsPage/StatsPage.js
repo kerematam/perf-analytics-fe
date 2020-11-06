@@ -81,7 +81,7 @@ const StatsPage = () => {
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <Chart
-            title="Time to Fist Btye"
+            title="Time to First Btye"
             data={stats.ttfb}
             time={stats.createdAt}
           />

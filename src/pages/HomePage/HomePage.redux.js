@@ -22,7 +22,7 @@ const slice = createSlice({
       state.postPageLoading = false
       state.page = action.payload.page
     },
-    postPageFailed:  (state, action) => {
+    postPageFailed: (state, action) => {
       state.postPageLoading = false
     },
     getPages: state => {
@@ -32,7 +32,7 @@ const slice = createSlice({
       state.getPagesLoading = false
       state.pages = action.payload.pages
     },
-    getPagesFailed:  (state, action) => {
+    getPagesFailed: (state, action) => {
       state.getPagesLoading = false
     },
   },

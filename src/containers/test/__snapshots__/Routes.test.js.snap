@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes should handle root path correctly handles "/" route 1`] = `
+"<Provider store={{...}}>
+  <MemoryRouter initialEntries={{...}}>
+    <Router history={{...}}>
+      <HelmetProvider context={{...}}>
+        <Routes>
+          <Switch>
+            <ProtectedRoute isAuthenticated={true} exact={true} path={{...}} location={{...}} computedMatch={{...}}>
+              <Route exact={true} path={{...}} location={{...}} computedMatch={{...}} render={[Function: render]}>
+                <BasicLayout>
+                  <div className=\\"root\\">
+                    <LayoutHeader>
+                      <div className=\\"root\\">
+                        <span className=\\"menu_item\\">
+                          <WithStyles(ForwardRef(Button)) onClick={[Function: handleClickHomepage]} className=\\"menu_item_button\\">
+                            <ForwardRef(Button) classes={{...}} onClick={[Function: handleClickHomepage]} className=\\"menu_item_button\\">
+                              <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiButton-root MuiButton-text menu_item_button\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleClickHomepage]}>
+                                <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiButton-root MuiButton-text menu_item_button\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleClickHomepage]}>
+                                  <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-text menu_item_button\\" onBlur={[Function]} onClick={[Function: handleClickHomepage]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                    <span className=\\"MuiButton-label\\">
+                                      <ForwardRef className=\\"menu_item_icon\\" fontSize=\\"small\\">
+                                        <WithStyles(ForwardRef(SvgIcon)) className=\\"menu_item_icon\\" fontSize=\\"small\\">
+                                          <ForwardRef(SvgIcon) classes={{...}} className=\\"menu_item_icon\\" fontSize=\\"small\\">
+                                            <svg className=\\"MuiSvgIcon-root menu_item_icon MuiSvgIcon-fontSizeSmall\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                              <path d=\\"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z\\" />
+                                            </svg>
+                                          </ForwardRef(SvgIcon)>
+                                        </WithStyles(ForwardRef(SvgIcon))>
+                                      </ForwardRef>
+                                      <WithStyles(ForwardRef(Typography)) className=\\"menu_item_text\\">
+                                        <ForwardRef(Typography) classes={{...}} className=\\"menu_item_text\\">
+                                          <p className=\\"MuiTypography-root menu_item_text MuiTypography-body1\\">
+                                            Home
+                                          </p>
+                                        </ForwardRef(Typography)>
+                                      </WithStyles(ForwardRef(Typography))>
+                                    </span>
+                                    <NoSsr>
+                                      <WithStyles(undefined) center={false}>
+                                        <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                                          <span className=\\"MuiTouchRipple-root\\">
+                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                          </span>
+                                        </ForwardRef(TouchRipple)>
+                                      </WithStyles(undefined)>
+                                    </NoSsr>
+                                  </button>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(Button)>
+                          </WithStyles(ForwardRef(Button))>
+                        </span>
+                      </div>
+                    </LayoutHeader>
+                    <div>
+                      <Suspense fallback=\\"Loading...\\">
+                        <Switch>
+                          <Route path=\\"/home\\" exact={true} render={[Function: render]} location={{...}} computedMatch={{...}} />
+                        </Switch>
+                        Loading...
+                      </Suspense>
+                    </div>
+                  </div>
+                </BasicLayout>
+              </Route>
+            </ProtectedRoute>
+          </Switch>
+        </Routes>
+      </HelmetProvider>
+    </Router>
+  </MemoryRouter>
+</Provider>"
+`;
+
+exports[`Routes should handle root path correctly handles 404 routes  1`] = `
+"<Provider store={{...}}>
+  <MemoryRouter initialEntries={{...}}>
+    <Router history={{...}}>
+      <HelmetProvider context={{...}}>
+        <Routes>
+          <Switch>
+            <Route path=\\"/404\\" component={[Function: NotFoundPage]} location={{...}} computedMatch={{...}}>
+              <NotFoundPage history={{...}} location={{...}} match={{...}} staticContext={[undefined]}>
+                <div className=\\"img_container\\">
+                  <img alt=\\"404\\" src=\\"404.jpg\\" className=\\"img\\" />
+                </div>
+              </NotFoundPage>
+            </Route>
+          </Switch>
+        </Routes>
+      </HelmetProvider>
+    </Router>
+  </MemoryRouter>
+</Provider>"
+`;

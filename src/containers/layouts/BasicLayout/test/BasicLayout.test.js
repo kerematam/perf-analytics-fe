@@ -30,9 +30,4 @@ describe('BasicLayout', () => {
     const { wrapper } = setup('/')
     expect(wrapper).toMatchSnapshot()
   })
-
-  test('correctly handles "/characters/1" route', () => {
-    const { wrapper } = setup('/characters/1')
-    expect(wrapper).toMatchSnapshot()
-  })
 })

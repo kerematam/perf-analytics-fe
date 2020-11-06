@@ -45,7 +45,7 @@ describe('AddUrl component', () => {
     const [input] = document.getElementsByTagName('input')
     const [button] = document.getElementsByTagName('button')
     fireEvent.click(button)
-    const warningMsg = document.getElementById('outlined-basic-helper-text')
+    const warningMsg = document.getElementById('add_url_text_box-helper-text')
       .innerHTML
 
     expect(warningMsg).toContain('Please')
@@ -55,7 +55,7 @@ describe('AddUrl component', () => {
     render(<AddUrl url={VALID_URL} />)
     const [button] = document.getElementsByTagName('button')
     fireEvent.click(button)
-    const warningMsg = document.getElementById('outlined-basic-helper-text')
+    const warningMsg = document.getElementById('add_url_text_box-helper-text')
       ?.innerHTML
 
     expect(warningMsg).toBeFalsy()

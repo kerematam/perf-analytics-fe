@@ -11,8 +11,8 @@ exports[`Chart component should match with snapshot 1`] = `
       <label
         className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
         data-shrink={false}
-        htmlFor="outlined-basic"
-        id="outlined-basic-label"
+        htmlFor="add_url_text_box"
+        id="add_url_text_box-label"
       >
         URL
       </label>
@@ -25,7 +25,7 @@ exports[`Chart component should match with snapshot 1`] = `
           autoFocus={false}
           className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           disabled={false}
-          id="outlined-basic"
+          id="add_url_text_box"
           onAnimationStart={[Function]}
           onBlur={[Function]}
           onChange={[Function]}
@@ -52,6 +52,7 @@ exports[`Chart component should match with snapshot 1`] = `
     <button
       className="MuiButtonBase-root MuiIconButton-root"
       disabled={false}
+      id="add_url_button"
       onBlur={[Function]}
       onClick={[Function]}
       onDragLeave={[Function]}
@@ -127,8 +128,8 @@ exports[`Chart component should match with snapshot 1`] = `
       <label
         className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink={true}
-        htmlFor="outlined-multiline-static"
-        id="outlined-multiline-static-label"
+        htmlFor="copy_script_text_field"
+        id="copy_script_text_field-label"
       >
         Copy Block
       </label>
@@ -141,7 +142,7 @@ exports[`Chart component should match with snapshot 1`] = `
           autoFocus={false}
           className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
           disabled={false}
-          id="outlined-multiline-static"
+          id="copy_script_text_field"
           onAnimationStart={[Function]}
           onBlur={[Function]}
           onChange={[Function]}

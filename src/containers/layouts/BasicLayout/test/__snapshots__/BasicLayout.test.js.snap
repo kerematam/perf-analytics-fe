@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasicLayout correctly handles "/" route 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="root"
+  >
+    <span
+      className="menu_item"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text menu_item_button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root menu_item_icon MuiSvgIcon-fontSizeSmall"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root menu_item_text MuiTypography-body1"
+          >
+            Home
+          </p>
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
+    </span>
+  </div>
+  <div>
+    Loading...
+  </div>
+</div>
+`;

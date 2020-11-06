@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage  should match with snapshot 1`] = `
+"<Provider store={{...}}>
+  <HelmetProvider context={{...}}>
+    <HomePage>
+      <div>
+        <Helmet defer={true} encodeSpecialCharacters={true}>
+          <HelmetDispatcher defer={true} encodeSpecialCharacters={true} title=\\"PerfAnalytics\\" titleAttributes={{...}} context={{...}} />
+        </Helmet>
+        <WithStyles(ForwardRef(Grid)) container={true} spacing={3}>
+          <ForwardRef(Grid) classes={{...}} container={true} spacing={3}>
+            <div className=\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3\\">
+              <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                  <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                    <InfoCard>
+                      <div>
+                        <WithStyles(ForwardRef(Typography))>
+                          <ForwardRef(Typography) classes={{...}}>
+                            <p className=\\"MuiTypography-root MuiTypography-body1\\">
+                              The performanceTiming API, a JavaScript API for measuring the loading performance of the requested page, is deprecated but supported in all browsers. It has been replaced with the performanceNavigationTiming API.
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                        <br />
+                        <WithStyles(ForwardRef(Typography))>
+                          <ForwardRef(Typography) classes={{...}}>
+                            <p className=\\"MuiTypography-root MuiTypography-body1\\">
+                              The performance timing API provided read only times, in milliseconds(ms), describing at what time each point in the page loading process was reached. As displayed in the image below, the navigation process goes from navigationStart, unloadEventStart, unloadEventEnd, redirectStart, redirectEnd, fetchStart, domainLookupStart, domainLookupEnd, connectStart , connectEnd, secureConnectionStart, requestStart, responseStart, responseEnd, domLoading, domInteractive, domContentLoadedEventStart, domContentLoadedEventEnd, domComplete, loadEventStart, and loadEventEnd.
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                        <a rel=\\"noopener noreferrer\\" className=\\"read_more\\" href=\\"https://developer.mozilla.org/en-US/docs/Web/Performance/Navigation_and_resource_timings#Performance_Timings\\" target=\\"_blank\\">
+                          read more
+                        </a>
+                      </div>
+                    </InfoCard>
+                  </div>
+                </ForwardRef(Grid)>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                  <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                    <CopyScript onSubmit={[Function: handleSubmitUrl]} page={{...}} reqUrl=\\"https://desolate-gorge-56289.herokuapp.com\\" loading={false}>
+                      <div>
+                        <AddUrl url={[undefined]} onSubmit={[Function: handleSubmitUrl]} loading={false}>
+                          <div className=\\"add_url_container\\">
+                            <WithStyles(ForwardRef(TextField)) value=\\"\\" disabled={false} onChange={[Function: handleChange]} size=\\"small\\" className=\\"input\\" id=\\"add_url_text_box\\" label=\\"URL\\" variant=\\"outlined\\" error={false} helperText=\\"\\">
+                              <ForwardRef(TextField) classes={{...}} value=\\"\\" disabled={false} onChange={[Function: handleChange]} size=\\"small\\" className=\\"input\\" id=\\"add_url_text_box\\" label=\\"URL\\" variant=\\"outlined\\" error={false} helperText=\\"\\">
+                                <WithStyles(ForwardRef(FormControl)) className=\\"MuiTextField-root input\\" disabled={false} error={false} fullWidth={false} hiddenLabel={[undefined]} required={false} color=\\"primary\\" variant=\\"outlined\\" size=\\"small\\">
+                                  <ForwardRef(FormControl) classes={{...}} className=\\"MuiTextField-root input\\" disabled={false} error={false} fullWidth={false} hiddenLabel={[undefined]} required={false} color=\\"primary\\" variant=\\"outlined\\" size=\\"small\\">
+                                    <div className=\\"MuiFormControl-root MuiTextField-root input\\">
+                                      <WithStyles(ForwardRef(InputLabel)) htmlFor=\\"add_url_text_box\\" id=\\"add_url_text_box-label\\">
+                                        <ForwardRef(InputLabel) classes={{...}} htmlFor=\\"add_url_text_box\\" id=\\"add_url_text_box-label\\">
+                                          <WithStyles(ForwardRef(FormLabel)) data-shrink={false} className=\\"MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined\\" classes={{...}} htmlFor=\\"add_url_text_box\\" id=\\"add_url_text_box-label\\">
+                                            <ForwardRef(FormLabel) classes={{...}} data-shrink={false} className=\\"MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined\\" htmlFor=\\"add_url_text_box\\" id=\\"add_url_text_box-label\\">
+                                              <label className=\\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined\\" data-shrink={false} htmlFor=\\"add_url_text_box\\" id=\\"add_url_text_box-label\\">
+                                                URL
+                                              </label>
+                                            </ForwardRef(FormLabel)>
+                                          </WithStyles(ForwardRef(FormLabel))>
+                                        </ForwardRef(InputLabel)>
+                                      </WithStyles(ForwardRef(InputLabel))>
+                                      <WithStyles(ForwardRef(OutlinedInput)) aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} fullWidth={false} multiline={false} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} type={[undefined]} value=\\"\\" id=\\"add_url_text_box\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[Function: handleChange]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} label={{...}}>
+                                        <ForwardRef(OutlinedInput) classes={{...}} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} fullWidth={false} multiline={false} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} type={[undefined]} value=\\"\\" id=\\"add_url_text_box\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[Function: handleChange]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} label={{...}}>
+                                          <WithStyles(ForwardRef(InputBase)) renderSuffix={[Function: renderSuffix]} classes={{...}} fullWidth={false} inputComponent=\\"input\\" multiline={false} type=\\"text\\" aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} value=\\"\\" id=\\"add_url_text_box\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[Function: handleChange]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]}>
+                                            <ForwardRef(InputBase) classes={{...}} renderSuffix={[Function: renderSuffix]} fullWidth={false} inputComponent=\\"input\\" multiline={false} type=\\"text\\" aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} name={[undefined]} rows={[undefined]} rowsMax={[undefined]} value=\\"\\" id=\\"add_url_text_box\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[Function: handleChange]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]}>
+                                              <div className=\\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense\\" onClick={[Function: handleClick]}>
+                                                <input aria-invalid={false} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} disabled={false} id=\\"add_url_text_box\\" onAnimationStart={[Function: handleAutoFill]} name={[undefined]} placeholder={[undefined]} readOnly={[undefined]} required={false} rows={[undefined]} value=\\"\\" onKeyDown={[undefined]} onKeyUp={[undefined]} type=\\"text\\" className=\\"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense\\" onBlur={[Function: handleBlur]} onChange={[Function: handleChange]} onFocus={[Function: handleFocus]} />
+                                                <WithStyles(ForwardRef(NotchedOutline)) className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={false}>
+                                                  <ForwardRef(NotchedOutline) classes={{...}} className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={false}>
+                                                    <fieldset aria-hidden={true} className=\\"PrivateNotchedOutline-root-192 MuiOutlinedInput-notchedOutline\\" style={[undefined]}>
+                                                      <legend className=\\"PrivateNotchedOutline-legendLabelled-194\\">
+                                                        <span>
+                                                          URL
+                                                        </span>
+                                                      </legend>
+                                                    </fieldset>
+                                                  </ForwardRef(NotchedOutline)>
+                                                </WithStyles(ForwardRef(NotchedOutline))>
+                                              </div>
+                                            </ForwardRef(InputBase)>
+                                          </WithStyles(ForwardRef(InputBase))>
+                                        </ForwardRef(OutlinedInput)>
+                                      </WithStyles(ForwardRef(OutlinedInput))>
+                                    </div>
+                                  </ForwardRef(FormControl)>
+                                </WithStyles(ForwardRef(FormControl))>
+                              </ForwardRef(TextField)>
+                            </WithStyles(ForwardRef(TextField))>
+                            <WithStyles(ForwardRef(IconButton)) onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
+                              <ForwardRef(IconButton) classes={{...}} onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
+                                <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
+                                  <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
+                                    <button className=\\"MuiButtonBase-root MuiIconButton-root\\" onBlur={[Function]} onClick={[Function: handleAddUrl]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false} id=\\"add_url_button\\">
+                                      <span className=\\"MuiIconButton-label\\">
+                                        <ForwardRef className=\\"button_icon\\">
+                                          <WithStyles(ForwardRef(SvgIcon)) className=\\"button_icon\\">
+                                            <ForwardRef(SvgIcon) classes={{...}} className=\\"button_icon\\">
+                                              <svg className=\\"MuiSvgIcon-root button_icon\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                                <path d=\\"M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z\\" />
+                                              </svg>
+                                            </ForwardRef(SvgIcon)>
+                                          </WithStyles(ForwardRef(SvgIcon))>
+                                        </ForwardRef>
+                                      </span>
+                                      <NoSsr>
+                                        <WithStyles(undefined) center={true}>
+                                          <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                            <span className=\\"MuiTouchRipple-root\\">
+                                              <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                            </span>
+                                          </ForwardRef(TouchRipple)>
+                                        </WithStyles(undefined)>
+                                      </NoSsr>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </WithStyles(ForwardRef(ButtonBase))>
+                              </ForwardRef(IconButton)>
+                            </WithStyles(ForwardRef(IconButton))>
+                          </div>
+                        </AddUrl>
+                        <div className=\\"copy_block_container\\">
+                          <WithStyles(ForwardRef(IconButton)) onClick={[Function: handleCopy]} className=\\"copy_icon\\">
+                            <ForwardRef(IconButton) classes={{...}} onClick={[Function: handleCopy]} className=\\"copy_icon\\">
+                              <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root copy_icon\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleCopy]}>
+                                <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root copy_icon\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleCopy]}>
+                                  <button className=\\"MuiButtonBase-root MuiIconButton-root copy_icon\\" onBlur={[Function]} onClick={[Function: handleCopy]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                    <span className=\\"MuiIconButton-label\\">
+                                      <ForwardRef>
+                                        <WithStyles(ForwardRef(SvgIcon))>
+                                          <ForwardRef(SvgIcon) classes={{...}}>
+                                            <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                              <path d=\\"M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4l6 6v10c0 1.1-.9 2-2 2H7.99C6.89 23 6 22.1 6 21l.01-14c0-1.1.89-2 1.99-2h7zm-1 7h5.5L14 6.5V12z\\" />
+                                            </svg>
+                                          </ForwardRef(SvgIcon)>
+                                        </WithStyles(ForwardRef(SvgIcon))>
+                                      </ForwardRef>
+                                    </span>
+                                    <NoSsr>
+                                      <WithStyles(undefined) center={true}>
+                                        <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                          <span className=\\"MuiTouchRipple-root\\">
+                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                          </span>
+                                        </ForwardRef(TouchRipple)>
+                                      </WithStyles(undefined)>
+                                    </NoSsr>
+                                  </button>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(IconButton)>
+                          </WithStyles(ForwardRef(IconButton))>
+                          <WithStyles(ForwardRef(TextField)) className=\\"copy_field\\" value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" id=\\"copy_script_text_field\\" label=\\"Copy Block\\" multiline={true} rows={10} variant=\\"outlined\\">
+                            <ForwardRef(TextField) classes={{...}} className=\\"copy_field\\" value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" id=\\"copy_script_text_field\\" label=\\"Copy Block\\" multiline={true} rows={10} variant=\\"outlined\\">
+                              <WithStyles(ForwardRef(FormControl)) className=\\"MuiTextField-root copy_field\\" disabled={false} error={false} fullWidth={false} hiddenLabel={[undefined]} required={false} color=\\"primary\\" variant=\\"outlined\\">
+                                <ForwardRef(FormControl) classes={{...}} className=\\"MuiTextField-root copy_field\\" disabled={false} error={false} fullWidth={false} hiddenLabel={[undefined]} required={false} color=\\"primary\\" variant=\\"outlined\\">
+                                  <div className=\\"MuiFormControl-root MuiTextField-root copy_field\\">
+                                    <WithStyles(ForwardRef(InputLabel)) htmlFor=\\"copy_script_text_field\\" id=\\"copy_script_text_field-label\\">
+                                      <ForwardRef(InputLabel) classes={{...}} htmlFor=\\"copy_script_text_field\\" id=\\"copy_script_text_field-label\\">
+                                        <WithStyles(ForwardRef(FormLabel)) data-shrink={true} className=\\"MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined\\" classes={{...}} htmlFor=\\"copy_script_text_field\\" id=\\"copy_script_text_field-label\\">
+                                          <ForwardRef(FormLabel) classes={{...}} data-shrink={true} className=\\"MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined\\" htmlFor=\\"copy_script_text_field\\" id=\\"copy_script_text_field-label\\">
+                                            <label className=\\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled\\" data-shrink={true} htmlFor=\\"copy_script_text_field\\" id=\\"copy_script_text_field-label\\">
+                                              Copy Block
+                                            </label>
+                                          </ForwardRef(FormLabel)>
+                                        </WithStyles(ForwardRef(FormLabel))>
+                                      </ForwardRef(InputLabel)>
+                                    </WithStyles(ForwardRef(InputLabel))>
+                                    <WithStyles(ForwardRef(OutlinedInput)) aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} fullWidth={false} multiline={true} name={[undefined]} rows={10} rowsMax={[undefined]} type={[undefined]} value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" id=\\"copy_script_text_field\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} label={{...}}>
+                                      <ForwardRef(OutlinedInput) classes={{...}} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} fullWidth={false} multiline={true} name={[undefined]} rows={10} rowsMax={[undefined]} type={[undefined]} value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" id=\\"copy_script_text_field\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]} label={{...}}>
+                                        <WithStyles(ForwardRef(InputBase)) renderSuffix={[Function: renderSuffix]} classes={{...}} fullWidth={false} inputComponent=\\"input\\" multiline={true} type=\\"text\\" aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} name={[undefined]} rows={10} rowsMax={[undefined]} value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" id=\\"copy_script_text_field\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]}>
+                                          <ForwardRef(InputBase) classes={{...}} renderSuffix={[Function: renderSuffix]} fullWidth={false} inputComponent=\\"input\\" multiline={true} type=\\"text\\" aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} name={[undefined]} rows={10} rowsMax={[undefined]} value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" id=\\"copy_script_text_field\\" inputRef={[undefined]} onBlur={[undefined]} onChange={[undefined]} onFocus={[undefined]} placeholder={[undefined]} inputProps={[undefined]}>
+                                            <div className=\\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline\\" onClick={[Function: handleClick]}>
+                                              <textarea aria-invalid={false} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} disabled={false} id=\\"copy_script_text_field\\" onAnimationStart={[Function: handleAutoFill]} name={[undefined]} placeholder={[undefined]} readOnly={[undefined]} required={false} rows={10} value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" onKeyDown={[undefined]} onKeyUp={[undefined]} className=\\"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline\\" onBlur={[Function: handleBlur]} onChange={[Function: handleChange]} onFocus={[Function: handleFocus]} />
+                                              <WithStyles(ForwardRef(NotchedOutline)) className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={true}>
+                                                <ForwardRef(NotchedOutline) classes={{...}} className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={true}>
+                                                  <fieldset aria-hidden={true} className=\\"PrivateNotchedOutline-root-192 MuiOutlinedInput-notchedOutline\\" style={[undefined]}>
+                                                    <legend className=\\"PrivateNotchedOutline-legendLabelled-194 PrivateNotchedOutline-legendNotched-195\\">
+                                                      <span>
+                                                        Copy Block
+                                                      </span>
+                                                    </legend>
+                                                  </fieldset>
+                                                </ForwardRef(NotchedOutline)>
+                                              </WithStyles(ForwardRef(NotchedOutline))>
+                                            </div>
+                                          </ForwardRef(InputBase)>
+                                        </WithStyles(ForwardRef(InputBase))>
+                                      </ForwardRef(OutlinedInput)>
+                                    </WithStyles(ForwardRef(OutlinedInput))>
+                                  </div>
+                                </ForwardRef(FormControl)>
+                              </WithStyles(ForwardRef(FormControl))>
+                            </ForwardRef(TextField)>
+                          </WithStyles(ForwardRef(TextField))>
+                        </div>
+                      </div>
+                    </CopyScript>
+                  </div>
+                </ForwardRef(Grid)>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid)) item={true} xs={12}>
+                <ForwardRef(Grid) classes={{...}} item={true} xs={12}>
+                  <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12\\">
+                    <UrlTable pages={{...}} loading={true} getPage={[Function: handleGetPage]}>
+                      <WithStyles(ForwardRef(TableContainer)) component={{...}}>
+                        <ForwardRef(TableContainer) classes={{...}} component={{...}}>
+                          <WithStyles(ForwardRef(Paper)) className=\\"MuiTableContainer-root\\">
+                            <ForwardRef(Paper) classes={{...}} className=\\"MuiTableContainer-root\\">
+                              <div className=\\"MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded\\">
+                                <WithStyles(ForwardRef(Table)) aria-label=\\"customized table\\">
+                                  <ForwardRef(Table) classes={{...}} aria-label=\\"customized table\\">
+                                    <table className=\\"MuiTable-root\\" aria-label=\\"customized table\\">
+                                      <WithStyles(ForwardRef(TableHead))>
+                                        <ForwardRef(TableHead) classes={{...}}>
+                                          <thead className=\\"MuiTableHead-root\\">
+                                            <WithStyles(ForwardRef(TableRow))>
+                                              <ForwardRef(TableRow) classes={{...}}>
+                                                <tr className=\\"MuiTableRow-root MuiTableRow-head\\">
+                                                  <StyledTableCell>
+                                                    <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
+                                                      <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                          Page URL
+                                                        </th>
+                                                      </ForwardRef(TableCell)>
+                                                    </WithStyles(ForwardRef(TableCell))>
+                                                  </StyledTableCell>
+                                                  <StyledTableCell>
+                                                    <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
+                                                      <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                          ID
+                                                        </th>
+                                                      </ForwardRef(TableCell)>
+                                                    </WithStyles(ForwardRef(TableCell))>
+                                                  </StyledTableCell>
+                                                  <StyledTableCell>
+                                                    <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
+                                                      <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                          Create Date
+                                                        </th>
+                                                      </ForwardRef(TableCell)>
+                                                    </WithStyles(ForwardRef(TableCell))>
+                                                  </StyledTableCell>
+                                                  <StyledTableCell>
+                                                    <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
+                                                      <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                          Operations
+                                                        </th>
+                                                      </ForwardRef(TableCell)>
+                                                    </WithStyles(ForwardRef(TableCell))>
+                                                  </StyledTableCell>
+                                                </tr>
+                                              </ForwardRef(TableRow)>
+                                            </WithStyles(ForwardRef(TableRow))>
+                                          </thead>
+                                        </ForwardRef(TableHead)>
+                                      </WithStyles(ForwardRef(TableHead))>
+                                      <WithStyles(ForwardRef(TableBody))>
+                                        <ForwardRef(TableBody) classes={{...}}>
+                                          <tbody className=\\"MuiTableBody-root\\" />
+                                        </ForwardRef(TableBody)>
+                                      </WithStyles(ForwardRef(TableBody))>
+                                    </table>
+                                  </ForwardRef(Table)>
+                                </WithStyles(ForwardRef(Table))>
+                              </div>
+                            </ForwardRef(Paper)>
+                          </WithStyles(ForwardRef(Paper))>
+                        </ForwardRef(TableContainer)>
+                      </WithStyles(ForwardRef(TableContainer))>
+                    </UrlTable>
+                  </div>
+                </ForwardRef(Grid)>
+              </WithStyles(ForwardRef(Grid))>
+            </div>
+          </ForwardRef(Grid)>
+        </WithStyles(ForwardRef(Grid))>
+      </div>
+    </HomePage>
+  </HelmetProvider>
+</Provider>"
+`;

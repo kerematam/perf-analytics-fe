@@ -41,13 +41,13 @@ export const AddUrl = ({ onSubmit = () => {}, url: urlProp = '', loading }) => {
         onChange={handleChange}
         size="small"
         className={styles.input}
-        id="outlined-basic"
+        id="add_url_text_box"
         label="URL"
         variant="outlined"
         error={!!isError}
         helperText={isError}
       />
-      <IconButton onClick={handleAddUrl}>
+      <IconButton onClick={handleAddUrl} id="add_url_button">
         {loading ? (
           <CircularProgress className={styles.button_icon} />
         ) : (
@@ -78,7 +78,7 @@ const CopyScript = ({ onSubmit, page = {}, reqUrl, loading }) => {
         <TextField
           className={styles.copy_field}
           value={scriptStr}
-          id="outlined-multiline-static"
+          id="copy_script_text_field"
           label="Copy Block"
           multiline
           rows={10}

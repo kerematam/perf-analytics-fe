@@ -28,14 +28,17 @@ export function* getPages({ payload }) {
       })
     )
   } catch (err) {
-    console.log('err : ', err)
-
     msg.error('Error occured while loading pages')
     yield put(actions.getPagesFailed())
   }
 }
 
+export const sagas = {
+  getPages,
+  postPage,
+}
+
 export default function* pageSaga() {
-  yield takeLatest(actions.postPage.type, postPage)
-  yield takeLatest(actions.getPages.type, getPages)
+  yield takeLatest(actions.postPage.type, sagas.postPage)
+  yield takeLatest(actions.getPages.type, sagas.getPages)
 }

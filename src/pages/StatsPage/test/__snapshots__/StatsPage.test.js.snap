@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatsPage  should match with snapshot 1`] = `
+"<Provider store={{...}}>
+  <MemoryRouter initialEntries={{...}}>
+    <Router history={{...}}>
+      <HelmetProvider context={{...}}>
+        <StatsPage>
+          <div>
+            <Helmet defer={true} encodeSpecialCharacters={true}>
+              <HelmetDispatcher defer={true} encodeSpecialCharacters={true} title=\\"Stats: undefined\\" titleAttributes={{...}} context={{...}} />
+            </Helmet>
+            <WithStyles(ForwardRef(Grid)) container={true} spacing={3}>
+              <ForwardRef(Grid) classes={{...}} container={true} spacing={3}>
+                <div className=\\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3\\">
+                  <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                    <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                      <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                        <div className=\\"page_view_container\\">
+                          <div className=\\"top_menu\\">
+                            <WithStyles(ForwardRef(Button)) onClick={[Function: handleTriggerPageLoad]} className=\\"button\\" variant=\\"contained\\" size=\\"small\\">
+                              <ForwardRef(Button) classes={{...}} onClick={[Function: handleTriggerPageLoad]} className=\\"button\\" variant=\\"contained\\" size=\\"small\\">
+                                <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleTriggerPageLoad]}>
+                                  <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleTriggerPageLoad]}>
+                                    <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" onBlur={[Function]} onClick={[Function: handleTriggerPageLoad]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                      <span className=\\"MuiButton-label\\">
+                                        Reload Page
+                                      </span>
+                                      <NoSsr>
+                                        <WithStyles(undefined) center={false}>
+                                          <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                                            <span className=\\"MuiTouchRipple-root\\">
+                                              <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                            </span>
+                                          </ForwardRef(TouchRipple)>
+                                        </WithStyles(undefined)>
+                                      </NoSsr>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </WithStyles(ForwardRef(ButtonBase))>
+                              </ForwardRef(Button)>
+                            </WithStyles(ForwardRef(Button))>
+                            <WithStyles(ForwardRef(Button)) onClick={[Function: handleStatsLoad]} className=\\"button\\" variant=\\"contained\\" size=\\"small\\">
+                              <ForwardRef(Button) classes={{...}} onClick={[Function: handleStatsLoad]} className=\\"button\\" variant=\\"contained\\" size=\\"small\\">
+                                <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleStatsLoad]}>
+                                  <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleStatsLoad]}>
+                                    <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" onBlur={[Function]} onClick={[Function: handleStatsLoad]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                      <span className=\\"MuiButton-label\\">
+                                        Reload Stats
+                                      </span>
+                                      <NoSsr>
+                                        <WithStyles(undefined) center={false}>
+                                          <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                                            <span className=\\"MuiTouchRipple-root\\">
+                                              <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                            </span>
+                                          </ForwardRef(TouchRipple)>
+                                        </WithStyles(undefined)>
+                                      </NoSsr>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </WithStyles(ForwardRef(ButtonBase))>
+                              </ForwardRef(Button)>
+                            </WithStyles(ForwardRef(Button))>
+                          </div>
+                          <iframe src={[undefined]} title={[undefined]} className=\\"iframe\\" />
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                    <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                      <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                        <Chart title=\\"Window Load\\" data={[undefined]} time={[undefined]}>
+                          <div className=\\"chart\\">
+                            <ForwardRef highcharts={{...}} options={{...}}>
+                              <div />
+                            </ForwardRef>
+                          </div>
+                        </Chart>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                    <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                      <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                        <Chart title=\\"Time to First Btye\\" data={[undefined]} time={[undefined]}>
+                          <div className=\\"chart\\">
+                            <ForwardRef highcharts={{...}} options={{...}}>
+                              <div />
+                            </ForwardRef>
+                          </div>
+                        </Chart>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                    <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                      <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                        <Chart title=\\"First ContentFul Paint\\" data={[undefined]} time={[undefined]}>
+                          <div className=\\"chart\\">
+                            <ForwardRef highcharts={{...}} options={{...}}>
+                              <div />
+                            </ForwardRef>
+                          </div>
+                        </Chart>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid)) item={true} xs={12} sm={12} md={6}>
+                    <ForwardRef(Grid) classes={{...}} item={true} xs={12} sm={12} md={6}>
+                      <div className=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6\\">
+                        <Chart title=\\"Dom Load\\" data={[undefined]} time={[undefined]}>
+                          <div className=\\"chart\\">
+                            <ForwardRef highcharts={{...}} options={{...}}>
+                              <div />
+                            </ForwardRef>
+                          </div>
+                        </Chart>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                </div>
+              </ForwardRef(Grid)>
+            </WithStyles(ForwardRef(Grid))>
+          </div>
+        </StatsPage>
+      </HelmetProvider>
+    </Router>
+  </MemoryRouter>
+</Provider>"
+`;

@@ -30,7 +30,12 @@ export function* getPage({ payload }) {
   }
 }
 
+export const sagas = {
+  getPage,
+  loadStats,
+}
+
 export default function* charactersData() {
-  yield takeLatest(actions.loadStats.type, loadStats)
-  yield takeLatest(actions.getPage.type, getPage)
+  yield takeLatest(actions.loadStats.type, sagas.loadStats)
+  yield takeLatest(actions.getPage.type, sagas.getPage)
 }

@@ -1,8 +1,6 @@
 import { createBrowserHistory, createMemoryHistory } from 'history'
+import { isTestEnv } from './helper'
 
-const history =
-  process.env.NODE_ENV === 'test'
-    ? createMemoryHistory()
-    : createBrowserHistory()
+const history = isTestEnv() ? createMemoryHistory() : createBrowserHistory()
 
 export default history
