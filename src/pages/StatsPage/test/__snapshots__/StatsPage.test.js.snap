@@ -22,19 +22,17 @@ exports[`StatsPage  should match with snapshot 1`] = `
                               <ForwardRef(Button) classes={{...}} onClick={[Function: handleTriggerPageLoad]} className=\\"button\\" variant=\\"contained\\" size=\\"small\\">
                                 <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleTriggerPageLoad]}>
                                   <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleTriggerPageLoad]}>
-                                    <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" onBlur={[Function]} onClick={[Function: handleTriggerPageLoad]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                    <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" onBlur={[Function (anonymous)]} onClick={[Function: handleTriggerPageLoad]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseDown={[Function (anonymous)]} onMouseLeave={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onTouchEnd={[Function (anonymous)]} onTouchMove={[Function (anonymous)]} onTouchStart={[Function (anonymous)]} tabIndex={0} type=\\"button\\" disabled={false}>
                                       <span className=\\"MuiButton-label\\">
                                         Reload Page
                                       </span>
-                                      <NoSsr>
-                                        <WithStyles(undefined) center={false}>
-                                          <ForwardRef(TouchRipple) classes={{...}} center={false}>
-                                            <span className=\\"MuiTouchRipple-root\\">
-                                              <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
-                                            </span>
-                                          </ForwardRef(TouchRipple)>
-                                        </WithStyles(undefined)>
-                                      </NoSsr>
+                                      <WithStyles(memo) center={false}>
+                                        <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                                          <span className=\\"MuiTouchRipple-root\\">
+                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                          </span>
+                                        </ForwardRef(TouchRipple)>
+                                      </WithStyles(memo)>
                                     </button>
                                   </ForwardRef(ButtonBase)>
                                 </WithStyles(ForwardRef(ButtonBase))>
@@ -44,19 +42,17 @@ exports[`StatsPage  should match with snapshot 1`] = `
                               <ForwardRef(Button) classes={{...}} onClick={[Function: handleStatsLoad]} className=\\"button\\" variant=\\"contained\\" size=\\"small\\">
                                 <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleStatsLoad]}>
                                   <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleStatsLoad]}>
-                                    <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" onBlur={[Function]} onClick={[Function: handleStatsLoad]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                    <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-contained button MuiButton-containedSizeSmall MuiButton-sizeSmall\\" onBlur={[Function (anonymous)]} onClick={[Function: handleStatsLoad]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseDown={[Function (anonymous)]} onMouseLeave={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onTouchEnd={[Function (anonymous)]} onTouchMove={[Function (anonymous)]} onTouchStart={[Function (anonymous)]} tabIndex={0} type=\\"button\\" disabled={false}>
                                       <span className=\\"MuiButton-label\\">
                                         Reload Stats
                                       </span>
-                                      <NoSsr>
-                                        <WithStyles(undefined) center={false}>
-                                          <ForwardRef(TouchRipple) classes={{...}} center={false}>
-                                            <span className=\\"MuiTouchRipple-root\\">
-                                              <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
-                                            </span>
-                                          </ForwardRef(TouchRipple)>
-                                        </WithStyles(undefined)>
-                                      </NoSsr>
+                                      <WithStyles(memo) center={false}>
+                                        <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                                          <span className=\\"MuiTouchRipple-root\\">
+                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                          </span>
+                                        </ForwardRef(TouchRipple)>
+                                      </WithStyles(memo)>
                                     </button>
                                   </ForwardRef(ButtonBase)>
                                 </WithStyles(ForwardRef(ButtonBase))>

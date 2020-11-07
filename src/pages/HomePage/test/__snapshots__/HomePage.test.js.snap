@@ -70,8 +70,8 @@ exports[`Homepage  should match with snapshot 1`] = `
                                                 <input aria-invalid={false} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} disabled={false} id=\\"add_url_text_box\\" onAnimationStart={[Function: handleAutoFill]} name={[undefined]} placeholder={[undefined]} readOnly={[undefined]} required={false} rows={[undefined]} value=\\"\\" onKeyDown={[undefined]} onKeyUp={[undefined]} type=\\"text\\" className=\\"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense\\" onBlur={[Function: handleBlur]} onChange={[Function: handleChange]} onFocus={[Function: handleFocus]} />
                                                 <WithStyles(ForwardRef(NotchedOutline)) className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={false}>
                                                   <ForwardRef(NotchedOutline) classes={{...}} className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={false}>
-                                                    <fieldset aria-hidden={true} className=\\"PrivateNotchedOutline-root-192 MuiOutlinedInput-notchedOutline\\" style={[undefined]}>
-                                                      <legend className=\\"PrivateNotchedOutline-legendLabelled-194\\">
+                                                    <fieldset aria-hidden={true} className=\\"PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline\\" style={[undefined]}>
+                                                      <legend className=\\"PrivateNotchedOutline-legendLabelled-3\\">
                                                         <span>
                                                           URL
                                                         </span>
@@ -93,27 +93,25 @@ exports[`Homepage  should match with snapshot 1`] = `
                               <ForwardRef(IconButton) classes={{...}} onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
                                 <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
                                   <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleAddUrl]} id=\\"add_url_button\\">
-                                    <button className=\\"MuiButtonBase-root MuiIconButton-root\\" onBlur={[Function]} onClick={[Function: handleAddUrl]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false} id=\\"add_url_button\\">
+                                    <button className=\\"MuiButtonBase-root MuiIconButton-root\\" onBlur={[Function (anonymous)]} onClick={[Function: handleAddUrl]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseDown={[Function (anonymous)]} onMouseLeave={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onTouchEnd={[Function (anonymous)]} onTouchMove={[Function (anonymous)]} onTouchStart={[Function (anonymous)]} tabIndex={0} type=\\"button\\" disabled={false} id=\\"add_url_button\\">
                                       <span className=\\"MuiIconButton-label\\">
                                         <ForwardRef className=\\"button_icon\\">
                                           <WithStyles(ForwardRef(SvgIcon)) className=\\"button_icon\\">
                                             <ForwardRef(SvgIcon) classes={{...}} className=\\"button_icon\\">
-                                              <svg className=\\"MuiSvgIcon-root button_icon\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                              <svg className=\\"MuiSvgIcon-root button_icon\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
                                                 <path d=\\"M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z\\" />
                                               </svg>
                                             </ForwardRef(SvgIcon)>
                                           </WithStyles(ForwardRef(SvgIcon))>
                                         </ForwardRef>
                                       </span>
-                                      <NoSsr>
-                                        <WithStyles(undefined) center={true}>
-                                          <ForwardRef(TouchRipple) classes={{...}} center={true}>
-                                            <span className=\\"MuiTouchRipple-root\\">
-                                              <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
-                                            </span>
-                                          </ForwardRef(TouchRipple)>
-                                        </WithStyles(undefined)>
-                                      </NoSsr>
+                                      <WithStyles(memo) center={true}>
+                                        <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                          <span className=\\"MuiTouchRipple-root\\">
+                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                          </span>
+                                        </ForwardRef(TouchRipple)>
+                                      </WithStyles(memo)>
                                     </button>
                                   </ForwardRef(ButtonBase)>
                                 </WithStyles(ForwardRef(ButtonBase))>
@@ -126,27 +124,25 @@ exports[`Homepage  should match with snapshot 1`] = `
                             <ForwardRef(IconButton) classes={{...}} onClick={[Function: handleCopy]} className=\\"copy_icon\\">
                               <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiIconButton-root copy_icon\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleCopy]}>
                                 <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiIconButton-root copy_icon\\" centerRipple={true} focusRipple={true} disabled={false} onClick={[Function: handleCopy]}>
-                                  <button className=\\"MuiButtonBase-root MuiIconButton-root copy_icon\\" onBlur={[Function]} onClick={[Function: handleCopy]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                  <button className=\\"MuiButtonBase-root MuiIconButton-root copy_icon\\" onBlur={[Function (anonymous)]} onClick={[Function: handleCopy]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseDown={[Function (anonymous)]} onMouseLeave={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onTouchEnd={[Function (anonymous)]} onTouchMove={[Function (anonymous)]} onTouchStart={[Function (anonymous)]} tabIndex={0} type=\\"button\\" disabled={false}>
                                     <span className=\\"MuiIconButton-label\\">
                                       <ForwardRef>
                                         <WithStyles(ForwardRef(SvgIcon))>
                                           <ForwardRef(SvgIcon) classes={{...}}>
-                                            <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                            <svg className=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
                                               <path d=\\"M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm-1 4l6 6v10c0 1.1-.9 2-2 2H7.99C6.89 23 6 22.1 6 21l.01-14c0-1.1.89-2 1.99-2h7zm-1 7h5.5L14 6.5V12z\\" />
                                             </svg>
                                           </ForwardRef(SvgIcon)>
                                         </WithStyles(ForwardRef(SvgIcon))>
                                       </ForwardRef>
                                     </span>
-                                    <NoSsr>
-                                      <WithStyles(undefined) center={true}>
-                                        <ForwardRef(TouchRipple) classes={{...}} center={true}>
-                                          <span className=\\"MuiTouchRipple-root\\">
-                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
-                                          </span>
-                                        </ForwardRef(TouchRipple)>
-                                      </WithStyles(undefined)>
-                                    </NoSsr>
+                                    <WithStyles(memo) center={true}>
+                                      <ForwardRef(TouchRipple) classes={{...}} center={true}>
+                                        <span className=\\"MuiTouchRipple-root\\">
+                                          <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                        </span>
+                                      </ForwardRef(TouchRipple)>
+                                    </WithStyles(memo)>
                                   </button>
                                 </ForwardRef(ButtonBase)>
                               </WithStyles(ForwardRef(ButtonBase))>
@@ -176,8 +172,8 @@ exports[`Homepage  should match with snapshot 1`] = `
                                               <textarea aria-invalid={false} aria-describedby={[undefined]} autoComplete={[undefined]} autoFocus={false} defaultValue={[undefined]} disabled={false} id=\\"copy_script_text_field\\" onAnimationStart={[Function: handleAutoFill]} name={[undefined]} placeholder={[undefined]} readOnly={[undefined]} required={false} rows={10} value=\\"<!--\\\\n* Page URL : undefined\\\\n* Page ID : undefined\\\\n* Analystics Host : https://desolate-gorge-56289.herokuapp.com\\\\n-->\\\\n<script async>\\\\nfunction calcualteTimer() {\\\\n  var timer = {};\\\\n  var timing = window.performance.timing;\\\\n  timer.ttfb = timing.responseStart - timing.requestStart;\\\\n  timer.fcp = performance.getEntriesByType(\\"paint\\")[1].startTime;\\\\n  timer.doml = timing.domComplete - timing.domLoading;\\\\n  timer.wl = timing.loadEventEnd - timing.navigationStart;\\\\n  timer.resources = performance.getEntriesByType(\\"resource\\");\\\\n  return timer;\\\\n}\\\\n\\\\nfunction sendTimer() {\\\\n  var timer = calcualteTimer()\\\\n  var body = JSON.stringify(timer);\\\\n  fetch(\\"https://desolate-gorge-56289.herokuapp.com/api/sites/undefined/metrics\\", {\\\\n      body,\\\\n      headers: {\\\\n        \\"Content-Type\\": \\"application/json\\",\\\\n      },\\\\n      method: \\"POST\\",\\\\n    }\\\\n  )\\\\n}\\\\n\\\\nwindow.addEventListener(\\"load\\", function () {\\\\n  setTimeout(sendTimer, 0);\\\\n});\\\\n</script>\\" onKeyDown={[undefined]} onKeyUp={[undefined]} className=\\"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline\\" onBlur={[Function: handleBlur]} onChange={[Function: handleChange]} onFocus={[Function: handleFocus]} />
                                               <WithStyles(ForwardRef(NotchedOutline)) className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={true}>
                                                 <ForwardRef(NotchedOutline) classes={{...}} className=\\"MuiOutlinedInput-notchedOutline\\" label={{...}} labelWidth={0} notched={true}>
-                                                  <fieldset aria-hidden={true} className=\\"PrivateNotchedOutline-root-192 MuiOutlinedInput-notchedOutline\\" style={[undefined]}>
-                                                    <legend className=\\"PrivateNotchedOutline-legendLabelled-194 PrivateNotchedOutline-legendNotched-195\\">
+                                                  <fieldset aria-hidden={true} className=\\"PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline\\" style={[undefined]}>
+                                                    <legend className=\\"PrivateNotchedOutline-legendLabelled-3 PrivateNotchedOutline-legendNotched-4\\">
                                                       <span>
                                                         Copy Block
                                                       </span>
@@ -212,17 +208,17 @@ exports[`Homepage  should match with snapshot 1`] = `
                               <div className=\\"MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded\\">
                                 <WithStyles(ForwardRef(Table)) aria-label=\\"customized table\\">
                                   <ForwardRef(Table) classes={{...}} aria-label=\\"customized table\\">
-                                    <table className=\\"MuiTable-root\\" aria-label=\\"customized table\\">
+                                    <table role={{...}} className=\\"MuiTable-root\\" aria-label=\\"customized table\\">
                                       <WithStyles(ForwardRef(TableHead))>
                                         <ForwardRef(TableHead) classes={{...}}>
-                                          <thead className=\\"MuiTableHead-root\\">
+                                          <thead className=\\"MuiTableHead-root\\" role={{...}}>
                                             <WithStyles(ForwardRef(TableRow))>
                                               <ForwardRef(TableRow) classes={{...}}>
-                                                <tr className=\\"MuiTableRow-root MuiTableRow-head\\">
+                                                <tr className=\\"MuiTableRow-root MuiTableRow-head\\" role={{...}}>
                                                   <StyledTableCell>
                                                     <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
                                                       <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
-                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} role={[undefined]} scope=\\"col\\">
                                                           Page URL
                                                         </th>
                                                       </ForwardRef(TableCell)>
@@ -231,7 +227,7 @@ exports[`Homepage  should match with snapshot 1`] = `
                                                   <StyledTableCell>
                                                     <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
                                                       <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
-                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} role={[undefined]} scope=\\"col\\">
                                                           ID
                                                         </th>
                                                       </ForwardRef(TableCell)>
@@ -240,7 +236,7 @@ exports[`Homepage  should match with snapshot 1`] = `
                                                   <StyledTableCell>
                                                     <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
                                                       <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
-                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} role={[undefined]} scope=\\"col\\">
                                                           Create Date
                                                         </th>
                                                       </ForwardRef(TableCell)>
@@ -249,7 +245,7 @@ exports[`Homepage  should match with snapshot 1`] = `
                                                   <StyledTableCell>
                                                     <WithStyles(ForwardRef(TableCell)) className=\\"styled_cell\\">
                                                       <ForwardRef(TableCell) classes={{...}} className=\\"styled_cell\\">
-                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} scope=\\"col\\">
+                                                        <th className=\\"MuiTableCell-root MuiTableCell-head styled_cell\\" aria-sort={{...}} role={[undefined]} scope=\\"col\\">
                                                           Operations
                                                         </th>
                                                       </ForwardRef(TableCell)>
@@ -263,7 +259,7 @@ exports[`Homepage  should match with snapshot 1`] = `
                                       </WithStyles(ForwardRef(TableHead))>
                                       <WithStyles(ForwardRef(TableBody))>
                                         <ForwardRef(TableBody) classes={{...}}>
-                                          <tbody className=\\"MuiTableBody-root\\" />
+                                          <tbody className=\\"MuiTableBody-root\\" role={{...}} />
                                         </ForwardRef(TableBody)>
                                       </WithStyles(ForwardRef(TableBody))>
                                     </table>

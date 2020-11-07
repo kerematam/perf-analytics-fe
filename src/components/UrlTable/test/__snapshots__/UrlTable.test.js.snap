@@ -7,12 +7,15 @@ exports[`UrlTable  should match with snapshot 1`] = `
   <table
     aria-label="customized table"
     className="MuiTable-root"
+    role={null}
   >
     <thead
       className="MuiTableHead-root"
+      role={null}
     >
       <tr
         className="MuiTableRow-root MuiTableRow-head"
+        role={null}
       >
         <th
           aria-sort={null}
@@ -46,13 +49,16 @@ exports[`UrlTable  should match with snapshot 1`] = `
     </thead>
     <tbody
       className="MuiTableBody-root"
+      role={null}
     >
       <tr
         className="MuiTableRow-root styled_row"
+        role={null}
       >
         <th
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body url_cell"
+          role="cell"
           scope="row"
           title="test"
         >
@@ -102,10 +108,9 @@ exports[`UrlTable  should match with snapshot 1`] = `
                   className="MuiButton-startIcon MuiButton-iconSizeSmall"
                 >
                   <svg
-                    aria-hidden="true"
+                    aria-hidden={true}
                     className="MuiSvgIcon-root"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -141,10 +146,9 @@ exports[`UrlTable  should match with snapshot 1`] = `
                   className="MuiButton-startIcon MuiButton-iconSizeSmall"
                 >
                   <svg
-                    aria-hidden="true"
+                    aria-hidden={true}
                     className="MuiSvgIcon-root"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path

@@ -36,10 +36,10 @@ exports[`Chart component should match with snapshot 1`] = `
         />
         <fieldset
           aria-hidden={true}
-          className="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+          className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
         >
           <legend
-            className="PrivateNotchedOutline-legendLabelled-61"
+            className="PrivateNotchedOutline-legendLabelled-3"
           >
             <span>
               URL
@@ -72,10 +72,9 @@ exports[`Chart component should match with snapshot 1`] = `
         className="MuiIconButton-label"
       >
         <svg
-          aria-hidden="true"
+          aria-hidden={true}
           className="MuiSvgIcon-root button_icon"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -110,10 +109,9 @@ exports[`Chart component should match with snapshot 1`] = `
         className="MuiIconButton-label"
       >
         <svg
-          aria-hidden="true"
+          aria-hidden={true}
           className="MuiSvgIcon-root"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -186,10 +184,10 @@ window.addEventListener(\\"load\\", function () {
         />
         <fieldset
           aria-hidden={true}
-          className="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+          className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
         >
           <legend
-            className="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+            className="PrivateNotchedOutline-legendLabelled-3 PrivateNotchedOutline-legendNotched-4"
           >
             <span>
               Copy Block

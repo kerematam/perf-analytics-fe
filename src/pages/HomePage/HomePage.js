@@ -22,8 +22,6 @@ const HomePage = () => {
 
   useEffect(() => {
     dispatch(actions.getPages())
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps,
   }, [])
 
   const handleSubmitUrl = pageUrl => {

@@ -26,8 +26,6 @@ const StatsPage = () => {
   useEffect(() => {
     dispatch(actions.getPage({ pageId }))
     dispatch(actions.loadStats({ pageId }))
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps,
   }, [])
 
   const handleTriggerPageLoad = () => {

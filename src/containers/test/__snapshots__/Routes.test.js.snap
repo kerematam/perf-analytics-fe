@@ -18,12 +18,12 @@ exports[`Routes should handle root path correctly handles "/" route 1`] = `
                             <ForwardRef(Button) classes={{...}} onClick={[Function: handleClickHomepage]} className=\\"menu_item_button\\">
                               <WithStyles(ForwardRef(ButtonBase)) className=\\"MuiButton-root MuiButton-text menu_item_button\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleClickHomepage]}>
                                 <ForwardRef(ButtonBase) classes={{...}} className=\\"MuiButton-root MuiButton-text menu_item_button\\" component=\\"button\\" disabled={false} focusRipple={true} focusVisibleClassName=\\"Mui-focusVisible\\" type=\\"button\\" onClick={[Function: handleClickHomepage]}>
-                                  <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-text menu_item_button\\" onBlur={[Function]} onClick={[Function: handleClickHomepage]} onFocus={[Function]} onKeyDown={[Function]} onKeyUp={[Function]} onMouseDown={[Function]} onMouseLeave={[Function]} onMouseUp={[Function]} onDragLeave={[Function]} onTouchEnd={[Function]} onTouchMove={[Function]} onTouchStart={[Function]} tabIndex={0} type=\\"button\\" disabled={false}>
+                                  <button className=\\"MuiButtonBase-root MuiButton-root MuiButton-text menu_item_button\\" onBlur={[Function (anonymous)]} onClick={[Function: handleClickHomepage]} onFocus={[Function (anonymous)]} onKeyDown={[Function (anonymous)]} onKeyUp={[Function (anonymous)]} onMouseDown={[Function (anonymous)]} onMouseLeave={[Function (anonymous)]} onMouseUp={[Function (anonymous)]} onDragLeave={[Function (anonymous)]} onTouchEnd={[Function (anonymous)]} onTouchMove={[Function (anonymous)]} onTouchStart={[Function (anonymous)]} tabIndex={0} type=\\"button\\" disabled={false}>
                                     <span className=\\"MuiButton-label\\">
                                       <ForwardRef className=\\"menu_item_icon\\" fontSize=\\"small\\">
                                         <WithStyles(ForwardRef(SvgIcon)) className=\\"menu_item_icon\\" fontSize=\\"small\\">
                                           <ForwardRef(SvgIcon) classes={{...}} className=\\"menu_item_icon\\" fontSize=\\"small\\">
-                                            <svg className=\\"MuiSvgIcon-root menu_item_icon MuiSvgIcon-fontSizeSmall\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden=\\"true\\" role=\\"presentation\\">
+                                            <svg className=\\"MuiSvgIcon-root menu_item_icon MuiSvgIcon-fontSizeSmall\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" color={[undefined]} aria-hidden={true} role={[undefined]}>
                                               <path d=\\"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z\\" />
                                             </svg>
                                           </ForwardRef(SvgIcon)>
@@ -37,15 +37,13 @@ exports[`Routes should handle root path correctly handles "/" route 1`] = `
                                         </ForwardRef(Typography)>
                                       </WithStyles(ForwardRef(Typography))>
                                     </span>
-                                    <NoSsr>
-                                      <WithStyles(undefined) center={false}>
-                                        <ForwardRef(TouchRipple) classes={{...}} center={false}>
-                                          <span className=\\"MuiTouchRipple-root\\">
-                                            <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
-                                          </span>
-                                        </ForwardRef(TouchRipple)>
-                                      </WithStyles(undefined)>
-                                    </NoSsr>
+                                    <WithStyles(memo) center={false}>
+                                      <ForwardRef(TouchRipple) classes={{...}} center={false}>
+                                        <span className=\\"MuiTouchRipple-root\\">
+                                          <TransitionGroup component={{...}} exit={true} childFactory={[Function: childFactory]} />
+                                        </span>
+                                      </ForwardRef(TouchRipple)>
+                                    </WithStyles(memo)>
                                   </button>
                                 </ForwardRef(ButtonBase)>
                               </WithStyles(ForwardRef(ButtonBase))>
